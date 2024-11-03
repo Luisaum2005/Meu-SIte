@@ -32,3 +32,15 @@ function updateCounter() {
 
 // Atualiza o contador a cada segundo
 setInterval(updateCounter, 1000);
+
+// Função para mostrar uma mensagem ao clicar na foto
+function showMessage(photoNumber) {
+    const messages = {
+        1: "Nós estávamos muito lindos nesse dia! 💖",
+        2: "Nossa primeira fotinha mo 💖",
+        3: "Somos muito engraçadinhos kakakakaka. Te amo! 🌹",
+        4: "Nosso rolezin de motoca! 💕"
+    };
+
+    alert(messages[photoNumber]);
+}
